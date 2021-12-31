@@ -3,8 +3,8 @@
     --secondary-color: #1a1919;
     --tertiary-color:  #687477;
     --quaternary-color: #e2c2b3;
-    --heading-font: 'Italiana', Verdana, Geneva, Tahoma, sans-serif;
-    --text-font: 'Roboto', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    --heading-font: 'Abril Fatface', Verdana, Geneva, Tahoma, sans-serif;
+    --text-font: 'Poppins', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 * {
@@ -48,6 +48,7 @@ body {
     padding: 20px;
 }
 
+/*Header section start*/
 header {
     display: flex;
     flex-direction: column;
@@ -60,7 +61,7 @@ header h1 {
     margin-bottom: 20px;
     font-weight: bold;
     font-family: var(--heading-font);
-    border-bottom: 1px solid var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
 }
 
 header h1 a {
@@ -93,7 +94,7 @@ header .profile p {
 header nav {
     padding: 20px;
     font-family: var(--heading-font);
-    font-weight: bold;
+    font-weight: normal;
 }
 
 header nav ul {
@@ -122,6 +123,74 @@ header nav ul li a:hover {
     font-size: 40px;
     font-size-adjust: 20px;
 }
+/*Header section end*/
 
+/*About section start*/
+.about-section {
+    padding: 20px;
+}
 
+.about-section .summary{
+    width: 80%;
+    align-content: center;
+    margin: auto;
+}
 
+.about-section .contact-button a {
+    color: var(--secondary-color);
+}
+
+.about-section .contact-button a:link {
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+.about-section .contact-button a:hover {
+    text-decoration: none;
+    font-style: italic;
+}
+
+.about-section .update h3 {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+/*About section end*/
+
+/*Work section start*/
+.work .flex-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work-right {
+    width: 50%;
+}
+
+.work-left {
+    width: 50%;
+}
+/*Work section end*/
+
+/*Contact section start*/
+.contact-me {
+    width: 80%;
+    align-content: center;
+    margin: auto;
+}
+
+.contact-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-form >* {
+    flex: 1;
+    margin: 15px;
+}
+
+.contact-flex div {
+    flex: 1;
+}
+
+/*Contact section end*/

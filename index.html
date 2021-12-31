@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link href='https://fonts.googleapis.com/css?family=Italiana' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Italiana' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'> -->
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Abril Fatface' rel='stylesheet'>
     <title>My Portfolio</title>
 </head>
 
@@ -51,22 +53,24 @@
             <section class="hero"></section>
 
             <!--About me section-->
-            <section id="about-me" class="about">
+            <section id="about-me" class="about-section">
                 <div>
                     <h2 class="section-title">
                         About Me
                     </h2>
                 </div>
-                <div>
+                <div class="summary">
                     <p>
                         I&#x27m a self-driven and organized professional seeking an entry-level software developer position. Before coding, I provided resources and services to adults and children in need for six years. My passion to help others is what drives me to create products that matter and have a positive impact in the world.
                     <br />
                     <br />
-                        I develop websites with HTML, CSS, and JavaScript focusing on accessibility, performance, and usability. When I&#x27m not coding, you can find me biking, boxing, spending time with family, or learning new programing languages. I hope you enjoy my portfolio and look forward to <span class="contact-button"> <a href="#contact-me">from you soon!</a></span>
+                        I develop websites with HTML, CSS, and JavaScript focusing on accessibility, performance, and usability. When I&#x27m not coding, you can find me biking, boxing, spending time with family, or learning new programing languages. I hope you enjoy my portfolio and look forward to <span class="contact-button"> <a href="#contact-me">hearing from you soon!</a></span>
                     </p>
 
-                    <h3>Currently Working On:</h3>
-                    <p>Attending Columbia Engineering Coding Boot Camp to gain additional skills, such as, jQuery, Bootstrap, Express.js, React.js, databases, MongoDB, Node.js, MySQL, Command Line, Git, and more.</p>
+                    <div class="update">
+                        <h3>Currently Working On:</h3>
+                        <p>Gaining additional skills in jQuery, Bootstrap, Express.js, React.js, databases, MongoDB, Node.js, MySQL, Command Line, Git, and more at Columbia Engineering Coding Boot Camp.</p>
+                    </div>
                 </div>
             </section>
 
@@ -79,7 +83,7 @@
                 </div>
 
                 <!--Run buddy project-->
-                <div class="work-parent run-buddy">
+                <div class="run-buddy">
                     <a href="https://mubohouston.github.io/run-buddy/" target="blank"> 
                         <img src="./assets/images/run-buddy.png" width="500px" alt="Run Buddy website">
                     </a>
@@ -93,63 +97,65 @@
                     </div>
                 </div>
 
-                <!--MERN Stack placeholder-->
-                <div class="work-parent work-left">
-                    <a href="#" target="blank">
-                        <img src="./assets/images/placeholder.png" alt="birds" />
-                    </a>
-                    <div class="bottom-left">
-                    <h3>
-                        Placeholder
-                    </h3>
-                    <p>
-                        MERN Stack
-                    </p>
-                    </div>
-                </div>
-
-                <!--Node/IoT placeholder-->
-                <div class="work-parent work-right">
-                    <a href="#" target="blank">
-                        <img src="./assets/images/placeholder.png" alt="coconut leaf" />
-                    </a>
-                    <div class="bottom-left">
-                    <h3>
-                        Placeholder
-                    </h3>
-                    <p>
-                        Node/ IoT
-                    </p>
-                    </div>
-                </div>
-
-                <!--React/JS/CSS placeholder-->
-                <div class="work-parent work-left">
-                    <a href="#" target="blank">
-                        <img src="./assets/images/placeholder.png" alt="rocks">
-                    </a>
-                    <div class="bottom-left">
-                    <h3>
-                        Placeholder
-                    </h3>
-                    <p>
-                        React/ Java Script/ CSS
-                    </p>
-                    </div>
-                </div>  
-
-                <!--HTML/JS/CSS-->
-                <div class="work-parent work-right">
-                    <a href="#" target="blank">
-                        <img src="./assets/images/placeholder.png" alt="palm leaves">
-                    </a>
-                    <div class="bottom-left">
+                <div class="flex-row">
+                    <!--MERN Stack placeholder-->
+                    <div class="work-parent work-left">
+                        <a href="#" target="blank">
+                            <img src="./assets/images/placeholder.png" alt="birds" />
+                        </a>
+                        <div class="bottom-left">
                         <h3>
                             Placeholder
                         </h3>
                         <p>
-                            HTML/ Java Script/ CSS
+                            MERN Stack
                         </p>
+                        </div>
+                    </div>
+
+                    <!--Node/IoT placeholder-->
+                    <div class="work-parent work-right">
+                        <a href="#" target="blank">
+                            <img src="./assets/images/placeholder.png" alt="coconut leaf" />
+                        </a>
+                        <div class="bottom-left">
+                        <h3>
+                            Placeholder
+                        </h3>
+                        <p>
+                            Node/ IoT
+                        </p>
+                        </div>
+                    </div>
+
+                    <!--React/JS/CSS placeholder-->
+                    <div class="work-parent work-left">
+                        <a href="#" target="blank">
+                            <img src="./assets/images/placeholder.png" alt="rocks">
+                        </a>
+                        <div class="bottom-left">
+                        <h3>
+                            Placeholder
+                        </h3>
+                        <p>
+                            React/ Java Script/ CSS
+                        </p>
+                        </div>
+                    </div>  
+
+                    <!--HTML/JS/CSS-->
+                    <div class="work-parent work-right">
+                        <a href="#" target="blank">
+                            <img src="./assets/images/placeholder.png" alt="palm leaves">
+                        </a>
+                        <div class="bottom-left">
+                            <h3>
+                                Placeholder
+                            </h3>
+                            <p>
+                                HTML/ Java Script/ CSS
+                            </p>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -167,32 +173,33 @@
                         <h3>Send me a Message!</h3>
                         <p>Got a question, proposal, or just want to say hello?
                            <br /> Go ahead.</p>
-                    <form>
-                        <label for="contact-name">Your Name</label>
-                        <input type="text" id="contact-name" placeholder="Your name.." />
+                        <form>
+                            <label for="contact-name">Your Name</label>
+                            <input type="text" id="contact-name" placeholder="Your name.." />
 
-                        <label for="contact-email">Email Address</label>
-                        <input type="text" id="contact-email" placeholder="Your email address.." />
+                            <label for="contact-email">Email Address</label>
+                            <input type="text" id="contact-email" placeholder="Your email address.." />
 
-                        <label for="contact-message">Message</label>
-                        <textarea id="contact-message" class="message-input" placeholder="Your message.."></textarea>
-                    
-                        <button type="submit">Submit</button>
-                    </form>
+                            <label for="contact-message">Message</label>
+                            <textarea id="contact-message" class="message-input" placeholder="Your message.."></textarea>
+                        
+                            <button type="submit">Submit</button>
+                        </form>
                     </div>
 
-                <div class="contact-info">
-                    <ul>
-                        <li>
-                            <a href="tel:(929)270-5358">(929)270-5358</a>
-                        </li>
-                        <li>
-                            <a href="#">Portfolio</a>
-                        </li>
-                        <li>
-                            <a href="#">GitHub</a>
-                        </li>
-                    </ul>
+                    <div class="contact-info">
+                        <ul>
+                            <li>
+                                <a href="tel:(929)270-5358">(929)270-5358</a>
+                            </li>
+                            <li>
+                                <a href="#">Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="#">GitHub</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </section>
         </div>
