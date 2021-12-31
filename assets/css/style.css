@@ -105,7 +105,6 @@ header nav ul li a:hover {
     width: 78%;
     align-items: center;
     margin: auto;
-    /*border: 1px solid black;*/
 }
 
 .about-flex img {
@@ -155,20 +154,72 @@ border-radius: 10px;
 }
 
 .work .section-title {
-    width: 28%;
+    width: 30%;
 }
 
-.work .flex-row {
+.work .flex-row-1, .work .flex-row-2 {
     display: flex;
     flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-around;
+    margin: 0;
 }
 
-.work-right {
-    width: 50%;
+.work-parent-1, .work-parent-2 {
+    position: relative; 
+    width: 600px;
 }
 
-.work-left {
-    width: 50%;
+.flex-row-1 .right, .flex-row-2 .right {
+    text-align: right;
+}
+
+.work-parent-1 img, .work-parent-2 img {
+    width: 600px;
+    border-radius: 10px;
+}
+
+.run-buddy {
+    text-align: center;
+}
+
+.run-buddy a {
+    position: relative;
+}
+
+.run-buddy img {
+    width: 85%;
+    border-radius: 10px;
+}
+
+.run-bottom-left {
+    position: absolute;
+    bottom: 15px;
+    left: 8px;
+    padding: 10px;
+    color: var(--secondary-color);
+    border: 2px solid var(--secondary-color);
+    border-radius: 5px;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 15px;
+    left: 8px;
+    padding: 10px;
+    color: var(--secondary-color);
+    border: 2px solid var(--secondary-color);
+    border-radius: 10px;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 15px;
+    right: 8px;
+    padding: 10px;
+    color: var(--secondary-color);
+    border: 2px solid var(--secondary-color);
+    border-radius: 10px;
 }
 /*Work section end*/
 
@@ -181,7 +232,6 @@ border-radius: 10px;
     margin: auto;
     display: block;
     width: 55%;
-    /*border: 1px solid black;*/
 }
 
 .contact-info {
@@ -195,7 +245,6 @@ border-radius: 10px;
     flex-wrap: wrap;
     justify-content: space-evenly;
     list-style: none;
-    /*border: 1px solid black;*/
 }
 
 .contact-info ul li a {
