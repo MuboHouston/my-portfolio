@@ -1,8 +1,7 @@
 :root {
     --primary-color: #eee7e1;
     --secondary-color: #1a1919;
-    --tertiary-color:  #687477;
-    --quaternary-color: #e2c2b3;
+    --tertiary-color:  #e2c2b3;
     --heading-font: 'Abril Fatface', Verdana, Geneva, Tahoma, sans-serif;
     --text-font: 'Poppins', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -17,6 +16,7 @@ body {
     font-family: var(--text-font);
     color: var(--secondary-color);
     background-color: var(--primary-color);
+    font-size: 16px;
 }
 
 .section-title {
@@ -25,7 +25,7 @@ body {
     border-bottom: 3px solid;
     padding-bottom: 10px;
     text-align: center;
-    margin: 0 auto 35px auto;
+    margin: 20px auto 35px auto;
     width: 25%;
 }
 
@@ -57,9 +57,9 @@ header {
 }
 
 header h1 {
-    font-size: 40px;
+    font-size: 41px;
     margin-bottom: 20px;
-    font-weight: bold;
+    font-weight: normal;
     font-family: var(--heading-font);
     border-bottom: 2px solid var(--secondary-color);
 }
@@ -73,7 +73,7 @@ header h1 a:link {
 }
 
 header h1 a:hover {
-    font-weight: normal;
+    font-weight: bold;
 }
 
 header .profile img {
@@ -86,7 +86,7 @@ header .profile img {
 
 header .profile p {
     margin-top: 30px;
-    margin-bottom: 30px;
+    /*margin-bottom: 30px;*/
     font-size: 21px;
     line-height: 1.4;
 } 
@@ -127,7 +127,7 @@ header nav ul li a:hover {
 
 /*About section start*/
 .about-section {
-    padding: 20px;
+    padding-bottom: 20px;
 }
 
 .about-section .summary{
@@ -156,3 +156,132 @@ header nav ul li a:hover {
     font-weight: bold;
 }
 /*About section end*/
+
+/*Work section start*/
+.work .flex-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work-right {
+    width: 50%;
+}
+
+.work-left {
+    width: 50%;
+}
+/*Work section end*/
+
+/*Contact section start*/
+.contact-flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    margin: auto;
+    display: block;
+    width: 80%;
+    /*border: 1px solid black;*/
+}
+
+.contact-info {
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+    font-size: 21px;
+}
+
+.contact-info ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style: none;
+    /*border: 1px solid black;*/
+}
+
+.contact-info ul li a {
+    color: var(--secondary-color);
+    justify-content: space-between;
+    border-bottom: 1px solid var(--secondary-color);
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+
+.contact-info ul li a:link {
+    text-decoration: none;
+    transition: all 1000ms;
+}
+
+.contact-info ul li a:hover {
+    font-weight: bold;
+    font-size: 30px;
+    font-size-adjust: 20px;
+}
+
+.contact-form h3 {
+    font-size: 20px;
+}
+
+.contact-form p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.contact-form p span {
+    font-style: italic;
+}
+
+.contact-form input, .contact-form textarea {
+    border: 1px solid;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.contact-form textarea {
+    height: 200px;
+    width: 100%;
+    padding: 7px 15x;
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    resize: none;
+    font-family: var(--text-font);
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+    outline: none;
+    background-color: var(--tertiary-color);
+}
+
+.contact-form button {
+    width: 100%;
+    border: none;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.contact-form button:hover {
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    border: 1px solid var(--secondary-color);
+}
+/*Contact section end*/
+
+/*Foot section start*/
+footer {
+    text-align: right;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/*Footer section end*/
