@@ -316,6 +316,7 @@ border-radius: 10px;
     font-size: 20px;
     padding: 15px;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .contact-form button:hover {
@@ -333,3 +334,73 @@ footer {
     justify-content: space-between;
 }
 /*Footer section end*/
+
+/*MEDIA QUERY FOR MOBILE PHONES AND SMALLER*/
+@media screen and (max-width: 980px) {
+    .section-title {
+        width: 80%;
+    }
+    
+    header {
+        width: 100%;
+    }
+
+    header h1 {
+        flex: 1;
+        font-size: 20px;
+    }
+
+    header nav {
+        flex: 1;
+    }
+
+    header nav ul li a{
+        font-size: 20px;
+    }
+
+    header nav ul li a:hover {
+        text-decoration: line-through;
+        font-size: 20px;
+    }
+
+    header nav ul li a:link {
+        transition: none;
+    }
+
+    .about-section {
+        width: 100%;
+    }
+
+    .about-flex {
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .about-section img {
+        width: 225px;
+        height: 225px;
+    }
+
+    .work .section-title {
+        width: 85%;
+    }
+    .run-buddy img {
+        width: 80vw;
+    }
+
+    .work-parent-1, .work-parent-2 {
+    width: 50%;
+    }
+
+    .work-parent-1 img, .work-parent-2 img {
+        width: 40vw;
+    }
+
+    .work h3 {
+        font-size: 1em;
+    }
+
+    .work p {
+        font-size: .8em;
+    }
+}
