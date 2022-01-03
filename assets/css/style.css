@@ -173,7 +173,7 @@ border-radius: 10px;
 
 .run-buddy img {
     width: 1350px;
-    max-width: 1350px;
+    max-width: 80vw;
     height: auto;
     border-radius: 10px;
 }
