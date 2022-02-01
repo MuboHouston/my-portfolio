@@ -207,6 +207,7 @@ border-radius: 10px;
 
 .work-child-1 img, .work-child-2 img {
     width: 600px;
+    height: 300px;
     border-radius: 10px;
 }
 
@@ -404,6 +405,7 @@ footer {
 
     .work-child-1 img, .work-child-2 img {
         width: 40vw;
+        height: 20vw;
     }
 
     .work h3 {
@@ -480,10 +482,12 @@ footer {
     
     .work-child-1 img, .work-child-2 img {
         width: 70vw;
+        height: 35vw;
     }
 
     .run-buddy img {
         width: 85vw;
+        height: 40vw;
     }
 
     .run-bottom-left {
@@ -491,23 +495,29 @@ footer {
     }
 
     .work .flex-row-1, .work .flex-row-2 {
-        display: block;
+        justify-content: center;
+    }
+
+    .flex-row-1 .right, .flex-row-2 .right {
+        text-align: center;
     }
 
     .work-child-1, .work-child-2 {
         width: 85%;
+        text-align: center;
     }
 
     .work-child-1 img, .work-child-2 img {
         width: 75vw;
+        height: 37vw;
     }
 
     .bottom-left {
-        left: 12px;
+        left: 30px;
     }
 
     .bottom-right {
-        right: 12px;
+        right: 30px;
     }
 
     .work h3 {
