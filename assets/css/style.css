@@ -189,6 +189,13 @@ text-align: center;
 .work h3, .work p {
     text-align: left;
 }
+
+.work .description {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
 /*Work section end*/
 
 /*Contact section start*/
@@ -361,6 +368,12 @@ footer {
     .work p {
         font-size: .8em;
     }
+
+    .work .description {
+        text-align: center;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
 }
 
 /*MEDIA QUERY FOR TABLETS AND SMALLER*/
@@ -396,6 +409,12 @@ footer {
         width: 225px;
         height: 225px;
         margin-bottom: 25px;
+    }
+
+    .work .description {
+        text-align: center;
+        margin-left: 50px;
+        margin-right: 50px;
     }
 }
 
